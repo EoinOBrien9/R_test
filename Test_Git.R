@@ -29,3 +29,7 @@ setwd('/Users/eoin.obrien/Documents/Git')
 username <- "eoin.obrien@afcb.co.uk"
 password <- "uoWde2CZ"
 competitions <- competitions(username, password)
+
+
+competitions %>%
+  filter(competition_name=="Premier League")
